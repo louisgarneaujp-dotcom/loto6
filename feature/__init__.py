@@ -2,17 +2,16 @@
 
 
 
-"""
-=========================================================
-Self-Evolving LOTO6 Prediction AI Ver.7 Ultimate
-Feature Module
-=========================================================
-"""
-
 from .statistics import StatisticsFeature
 from .compatibility import CompatibilityFeature
+from .interval import IntervalFeature
+from .transition import TransitionFeature
+from .hotcold import HotColdFeature
 
 __all__ = [
     "StatisticsFeature",
     "CompatibilityFeature",
+    "IntervalFeature",
+    "TransitionFeature",
+    "HotColdFeature",
 ]
